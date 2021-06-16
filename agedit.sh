@@ -1,7 +1,6 @@
 #!/bin/sh
 
 FNAME="/tmp/$(openssl rand -hex 32)"
-# TODO: regenerate file name properly
 test -f $FNAME && exit 1
 touch $FNAME
 chmod 600 $FNAME

@@ -9,6 +9,9 @@ A couple basic security measures have been taken, but it would still be trivial
 for another program with access to your files to gain access to the contents of
 encrypted files while you're editing them.
 
+Also, in the highly unlikely event of a filename collision the script will fail.
+This will probably be fixed in the future.
+
 This has only been tested on Arch Linux, but it should work on any system
 that can run POSIX shell. PRs for better compatibility are welcome.
 
