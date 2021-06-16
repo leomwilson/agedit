@@ -4,9 +4,15 @@ A shell script to edit files encrypted with age
 
 ## Installation
 
-To use this script, you'll need [age](https://github.com/FiloSottile/age).
+### Manual
 
-You'll also need two files:
+Install [age](https://github.com/FiloSottile/age) and OpenSSL.
+
+Then, move `agedit.sh` to a directory in your `$PATH`, optionally removing the extension.
+
+## Configuration
+
+Agedit relies on two configuration files:
 
 * `~/.config/agedit/identity.txt` - An identity file containing your Age private key
 * `~/.config/agedit/recipients.txt` - A recipients file containing your Age public key
@@ -14,7 +20,7 @@ You'll also need two files:
 These must be in a format to be passed to `age -i` and `age -R`, respectively.
 For more information, see [age's documentation](https://github.com/FiloSottile/age).
 
-Just move `agedit.sh` to a directory in your `$PATH`, optionally removing the extension.
+You can also change your editor by setting `$EDITOR`.
 
 ## Usage
 
