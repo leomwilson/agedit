@@ -40,5 +40,5 @@ You can also change your editor by setting `$EDITOR`.
 `agedit` takes one argument, the name of the encrypted file to edit.
 
 For example, if you had a file called `file.txt.age`,
-you would call `agedit file.txt.age`. It's that simple!
-Agedit will then open the decrypted `file.txt` in your `$EDITOR`.
+you would call `agedit file.txt.age`. Agedit will then open
+the decrypted `file.txt` in your `$EDITOR`. It's that simple!
