@@ -1,6 +1,9 @@
 # agedit
 
-A shell script to edit files encrypted with age
+Agedit is a simple shell script that lets you edit files encrypted with Age.
+
+This is intended as a replacement for something like Vim's insecure `:x`,
+allowing you to edit plaintext documents easily and store them encrypted at-rest.
 
 ## Disclaimer
 
